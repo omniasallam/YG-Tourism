@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YG</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="form">
+ <main class="position-relative">
+    <div class="container ">
+        <div class="container-form ">
+           <form action="#" class="form-control shadow-lg">
+            <h2 class="heading heading-yellow pt-4 fw-bold">Reservation Online</h2>
+            <div class="form-content d-flex justify-content-around align-content-center">
+                <div class="form-field ">
+                    <p class=" fw-bold text-black">Your Name</p>
+                <input type="text" id="username" placeholder="Your Name" style="width: 414px; padding:6px;" class="rounded-1 border-0 ps-2" required>
+                </div>
+                <div class="form field ">
+                    <p class="fw-bold text-black">Your Email</p>
+                <input type="email" id="emailuser" placeholder="Your Email" style="width: 414px; padding:6px;" class="rounded-1 border-0 ps-2" required>
+                </div>
+            </div>
+            <div class="form-content d-flex justify-content-around align-content-center">
+                <div class="form-field ">
+                    <p class="pt-5 text-black fw-bold">Date</p>
+                <input type="Date" id="userdate" style="width: 414px; padding:6px;" class="rounded-1 border-0 ps-2 " required>
+                </div>
+                <div class="form-field ">
+                    <p class="pt-5 text-black fw-bold" >Time</p>
+                <input type="TIME" id="usertime" style="width: 416px; padding:6px;" class="rounded-1 border-0 ps-2 shadow" required>
+                </div>
+            </div>
+           
+            <div class="form field mt-5">
+                <p class="text-white">How many people</p>
+            <select name="select" id="userselect"  style="width: 416px; padding:6px;" class="rounded-1 border-0 ps-2 shadow" required>
+                
+                <option value="1"> 1 person</option>
+                <option value="2"> 2 persons</option>
+                <option value="3"> 3 persons</option>
+                <option value="4"> 4 persons</option>
+                <option value="5"> 5 persons</option>
+                <option value="5+"> 5+ persons</option>
+                
+            </select>
+            </div>
+            <button class="btn btn-outline-warning mt-4 mb-4 " style="width: 150px; padding: 7px; font-size: 17px;"> Submit</button>
+            <p class="error-box text-warning fw-bold d-none ">All inputs is required</p>
+           </form> 
+
+           <div class="correct-box box d-none">
+            <p class=" "> Process id done</p>
+           </div>
+          
+        </div>
+
+
+      </div>
+ </main>
+    
+
+
+
+   <script src="./js/bootstrap.bundle.min.js"></script> 
+   <script src="./js/main.js"></script>
+</body>
+</html>
